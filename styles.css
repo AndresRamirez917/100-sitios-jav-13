@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat" , sans-serif;
+}
+
+/* utility classes*/
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.7em;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+.title-about {
+    font-size: 50px;
+}
+
+#contact .title-contact {
+    font-size: 50px;
+ text-align: right;
+}
+
+button {
+    padding: 15px;
+    text-transform: uppercase; 
+    border: none;
+    display: inline-block;
+    background: grey;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #a11515;
+    color: #fff;
+    border: #fff;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+form .form-group {
+    margin-bottom: 16px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 23px;
+}
+
+/* Navbar */
+#navbar {
+    background: #000;
+    color: #fff;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+#navbar .logo {
+    float: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 16px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #666;
+    color: white;
+    border-radius: 4px;
+  }
+
+/* showcase */
+
+#showcase {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 50%;
+  margin: 0 auto;
+}
+
+.showcase-title {
+    font-size: 50px;
+}
+
+#showcase p {
+    width: 80%;
+    padding-left: 150px;
+    margin-top: -60px;
+   
+}
+
+/* about */
+#about {
+    background: #EFEFEF;
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
+
+
+.card-1 {
+    float: left;
+  width: 60%;
+  padding-right: 80px;
+  padding-top: 90px;
+}
+
+.card-1 p {
+    margin-bottom: 30px;
+  }
+
+.card-2 {
+    float: right;
+    width: 40%;
+  }
+  
+  .card-2 img {
+    width: 100%;
+  }
+
+/* form */
+#contact form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form button {
+    width: 100%;
+}
+
+/* contact */
+#contact {
+    background: #000;
+    color: #fff;
+}
+
+/* footer */
+footer {
+    background: #000;
+    padding: 30px;
+    text-align: center;
+}
+
