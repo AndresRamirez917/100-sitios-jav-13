@@ -80,6 +80,7 @@ form .form-group {
 form .form-control {
     display: block;
     width: 100%;
+    padding: .5rem;
 }
 
 .btn {
@@ -150,6 +151,8 @@ li:hover {
     background: #EFEFEF;
     padding-top: 100px;
     padding-bottom: 130px;
+    width: 90%;
+    margin: 0 auto;
   }
 
 
@@ -167,6 +170,7 @@ li:hover {
 .card-2 {
     float: right;
     width: 40%;
+    margin-top: -500px;
   }
   
   .card-2 img {
